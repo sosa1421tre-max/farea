@@ -66,6 +66,23 @@
     <maven.version>3.9.16</maven.version>
   </properties>
   <dependencies>
+
+    <!-- Source: https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.14.0</version>
+    <scope>compile</scope>
+</dependency>
+
+    <!-- Source: https://mvnrepository.com/artifact/org.fusesource.mqtt-client/mqtt-client -->
+<dependency>
+    <groupId>org.fusesource.mqtt-client</groupId>
+    <artifactId>mqtt-client</artifactId>
+    <version>1.16</version>
+    <scope>compile</scope>
+</dependency>
+    
     <dependency>
       <groupId>com.yegor256</groupId>
       <artifactId>jaxec</artifactId>
